@@ -20,6 +20,17 @@ body {
     z-index: 1000;
 }
 
+#mainContent {
+    margin-top: 60px; /* Navbar'ın altına içerik yerleştirmek için */
+    padding: 20px;
+    display: flex; /* Flexbox ile ortalama */
+    justify-content: center; /* Yatay merkezleme */
+    align-items: center; /* Dikey merkezleme */
+    height: calc(100vh - 60px); /* Yüksekliği tam ekran yap, navbar yüksekliğini çıkar */
+    text-align: center; /* Metni ortala */
+    flex-direction: column; /* İçerikleri dikey sıralamak için */
+}
+
 .burger-menu {
     font-size: 24px;
     cursor: pointer;

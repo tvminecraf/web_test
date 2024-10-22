@@ -7,11 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <>
-    <!-- Navigasyon Bar -->
     <div class="navbar">
         <div class="burger-menu" onclick="toggleMenu()">☰</div>
-        <!-- Home butonu -->
-        <div class="home-button" onclick="loadHomePage()"> <!-- loadHomePage ile sadece home sayfası yüklenecek -->
+        <div class="home-button" onclick="loadHomePage()"> 
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
                 <path d="M3 9.5L12 3l9 6.5V20a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9.5z"></path>
                 <polyline points="9 22 9 12 15 12 15 22"></polyline>
@@ -20,26 +18,21 @@
         <div class="not-baslik" id="notBaslik">Ana Ekran</div>
     </div>
 
-    <!-- Menü - Burger Menü İçeriği -->
     <div id="menu" class="menu">
         <ul>
             <li onclick="loadMarkdownFile('not1.md')">Git ve GitHub Rehberi</li>
             <li onclick="loadMarkdownFile('not2.md')">Not 2</li>
             <li onclick="loadMarkdownFile('not3.md')">Not 3</li>
-            <!-- 
-            daha fazla not eklemek için örnek kod
-            -->
+
             <li onclick="loadMarkdownFile('not4.md')">Not 4</li>
-            <!-- 
-            Tabi sadece buraya eklemek yetmez note_titles.sjon dosyasına da eklemek gerekiyor
-            -->
+
         </ul>
     </div>
 
     <!-- Ana İçerik -->
-    <div id="mainContent">
-        <h2>Hoş Geldiniz</h2>
-        <p>Sol üstteki menüyü kullanarak notlar arasında geçiş yapabilirsiniz.</p>
+    <div id="mainContent" class="test">
+        <h2>🤩 Hoş Geldiniz 🤩</h2>
+        <p>↖️ Sol üstteki menüyü kullanarak notlar arasında geçiş yapabilirsiniz.</p>
     </div>
 <!--
     <footer>
